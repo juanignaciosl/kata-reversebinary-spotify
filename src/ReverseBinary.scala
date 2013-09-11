@@ -30,8 +30,8 @@ class ReverseBinarySpec extends FlatSpec with ShouldMatchers {
 
 object ReverseBinary {
   
-  def reverse(x: Int): Int = {
-    return Integer.parseInt(Integer.toBinaryString(x).reverse, 2);
+  def reverse(x: Int) = {
+    Integer.parseInt(Integer.toBinaryString(x).reverse, 2)
   }
 
 }
